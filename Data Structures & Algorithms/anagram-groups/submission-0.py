@@ -6,3 +6,5 @@ class Solution:
             sorteds = ''.join(sorted(s))
             res[sorteds].append(s)
         return list(res.values())
+
+## time colplexity O(m * nlogn)
